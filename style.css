@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/* -------------------------------------- */
+/* Elementos cards */
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 140px;
+    margin-right: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 5px 0;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.btn-comprar{
+    padding: 7px 25px;
+    background-color: #565669;
+    border: #6d6d7e;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px;
+    margin-bottom: 20px;
+}
+
+.btn-comprar:active{
+    box-shadow: none;
+}
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+/* Canasta Carrito */
+
+.canasta {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.canasta .maquetado-canasta {
+    width: 100%;
+}
+
+.canasta-title{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #6d6d7e54;
+    border-bottom: 1px solid #6d6d7e54;
+}
+
+.canasta-title p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.canasta-items{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #6d6d7e44;
+}
+
+/* ------------------------------- */
+/* transformando a tabla */
+.canasta-items p:nth-child(1){
+    margin: 0 15% 0 7.5%;
+    font-weight: bold;
+}
+.canasta-items p:nth-child(2){
+    width: 24%;
+}
+.canasta-items p:nth-child(3){
+    width: 19.3%;
+}
+.canasta-items p:nth-of-type(4){
+    margin-left: 16%;
+}
+/* ------------------------------- */
+
+.btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    color: #fffF;
+    box-shadow: 1px 2px 1px #000000;
+}
+
+.btn:active{
+    box-shadow: none;
+}
+
+.btn-sum{
+    margin-right: 2px;
+    background: rgba(0, 102, 255, 0.801);
+    border: rgba(0, 102, 255, 0.801);
+}
+
+.btn-res{
+    margin-left: 2px;
+    background: rgba(255, 0, 0, 0.801);
+    border: rgba(255, 0, 0, 0.801);
+}
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+/* Footer */
+.footer{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.carrito-lleno{
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.carrito-lleno h4:nth-child(1){
+    width: 41%;
+    margin-left: 10px;
+}
+
+.carrito-lleno button{
+    margin: 0 14.5% 0 16.5%;
+    padding: 7px;
+    background: #d43838;
+    border: #d43838;
+    color: #fffF;
+    box-shadow: 1px 2px 1px #000000;
+}
+
+.carrito-lleno button:active{
+    box-shadow: none;
+}
+
+/* -------------------------------------- */

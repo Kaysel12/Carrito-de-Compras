@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Pizza",
+        "precio": 500,
+        "findImage":"Imagenes/cafe.jpg"
+    }, {
+        "id": 2,
+        "title": "Agua",
+        "precio": 100,
+        "findImage":"Imagenes/agua.jpg"
+    }, {
+        "id": 3,
+        "title": "RedBull",
+        "precio": 200,
+        "findImage":"Imagenes/redbull.jpg"
+    }, {
+        "id": 4,
+        "title": "Hamburguesa",
+        "precio": 600,
+        "findImage":"Imagenes/hamburguesa.jpg"
+    }, {
+        "id": 5,
+        "title": "Papas",
+        "precio": 400,
+        "findImage":"Imagenes/papas.jpg"
+    }, {
+        "id": 6,
+        "title": "Spaguettis",
+        "precio": 300,
+        "findImage":"Imagenes/spaguettis.jpg"
+    }
+]

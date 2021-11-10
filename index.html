@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <h1>Carrito de Compras</h1>
+        </section>
+
+        <section class="cards"></section>
+
+        <section class="canasta">
+            <h2>Canasta del Carrito</h2>
+            <div class="canasta-title">
+                <p>#</p>
+                <p>Item</p>
+                <p>Cantidad</p>
+                <p>Accion</p>
+                <p>Total</p>
+            </div>
+            <div class="maquetado-canasta"></div>
+        </section>
+
+        <section class="footer">
+            <div class="carrito-vacio"><b>En este momento el carrito esta vacio</b></div>
+        </section>
+    </div>
+
+    <template id="template-card">
+        <div class="card">
+            <img src="Imagenes/cafe.jpg" alt="">
+            <h3>Cafe</h3>
+            <p>500</p>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+    </template>
+
+    <template id="template-items">
+        <div class="canasta-items">
+            <p>#</p>
+            <p>Item</p>
+            <p>Cantidad</p>
+            <div class="acciones__boton">
+                <button class="btn btn-sum">+</button>
+                <button class="btn btn-res">-</button>
+            </div>
+            <p>Total</p>
+        </div>
+    </template>
+
+    <template id="template-footer">
+        <div class="carrito-lleno">
+            <h4>Total de Productos</h4>
+            <h4>Total Cantidad</h4>
+            <button class="btn-vaciar">Vaciar Carrito</button>
+            <h4>Total Costo</h4>
+        </div>
+    </template>
+
+
+
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>
